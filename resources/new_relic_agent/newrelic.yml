@@ -239,7 +239,9 @@ common: &default_settings
     # Set this attribute to false to turn off this behavior.
     auto_instrument: true
 
-
+  class_transformer:
+    trace_annotation_class_name: com.myapp.NewRelicTrace
+    
 # Application Environments
 # ------------------------------------------
 # Environment specific settings are in this section.
