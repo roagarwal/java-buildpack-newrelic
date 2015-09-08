@@ -240,7 +240,7 @@ common: &default_settings
     auto_instrument: true
 
   class_transformer:
-    trace_annotation_class_name: com.myapp.NewRelicTrace
+    trace_annotation_class_name: org.cloudfoundry.samples.music.web.controllers.NewRelicTrace
     
 # Application Environments
 # ------------------------------------------
